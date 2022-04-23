@@ -8,13 +8,8 @@
   <header class="col-span-full bg-orange-400 p-3">
     <h1 class="text-2xl font-bold">StudyBuddy</h1>
   </header>
-  <aside class="mx-2 w-[256px]">
-    <!-- Profile header -->
-    <header>
-      <h3 class="text-lg font-bold">John Doe</h3>
-      <h4 class="text-sm font-extralight">johndoe@example.com</h4>
-    </header>
-    <nav>
+  <aside class="w-[360px]">
+    <nav class="mx-3">
       <NavList {links} />
     </nav>
   </aside>

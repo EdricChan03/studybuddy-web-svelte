@@ -14,11 +14,11 @@
 {#each links as link}
   {@const url = !('separator' in link) ? `/${link.url}` : ''}
   {#if !('separator' in link)}
-    <a href={url} class="flex items-center {getNavItemClasses(url)} rounded p-3">
-      <span class="material-icons-outlined mr-4" aria-hidden="true">{link.icon}</span>
+    <a href={url} class="flex items-center {getNavItemClasses(url)} rounded-[28px] h-14 p-4">
+      <span class="material-icons-outlined mr-3" aria-hidden="true">{link.icon}</span>
       <span>{link.name}</span>
     </a>
   {:else}
-    <hr class="my-2" />
+    <hr class="my-4 mx-7" />
   {/if}
 {/each}
