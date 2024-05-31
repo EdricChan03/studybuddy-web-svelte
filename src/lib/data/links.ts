@@ -1,8 +1,10 @@
-export type Link = {
-  name: string;
-  url: string;
-  icon: string;
-} | { separator: true };
+export type Link =
+  | {
+      name: string;
+      url: string;
+      icon: string;
+    }
+  | { separator: true };
 
 export const links: Link[] = [
   { name: 'Home', url: '', icon: 'home' },

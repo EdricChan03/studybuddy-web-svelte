@@ -4,7 +4,7 @@ module.exports = {
     fontFamily: {
       sans: ['"Baloo 2"', 'sans-serif']
     },
-    extend: {},
+    extend: {}
   },
-  plugins: [],
-}
+  plugins: []
+};
