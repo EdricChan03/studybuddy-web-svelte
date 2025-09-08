@@ -1,18 +1,18 @@
-import type { ComponentType } from 'svelte';
+import type { Component } from 'svelte';
 
-import CalendarIcon from 'lucide-svelte/icons/calendar';
-import CircleCheckBigIcon from 'lucide-svelte/icons/circle-check-big';
-import CircleHelpIcon from 'lucide-svelte/icons/circle-help';
-import HomeIcon from 'lucide-svelte/icons/home';
-import InfoIcon from 'lucide-svelte/icons/info';
-import NewspaperIcon from 'lucide-svelte/icons/newspaper';
-import SettingsIcon from 'lucide-svelte/icons/settings';
+import CalendarIcon from '@lucide/svelte/icons/calendar';
+import CircleCheckBigIcon from '@lucide/svelte/icons/circle-check-big';
+import CircleHelpIcon from '@lucide/svelte/icons/circle-help';
+import HomeIcon from '@lucide/svelte/icons/home';
+import InfoIcon from '@lucide/svelte/icons/info';
+import NewspaperIcon from '@lucide/svelte/icons/newspaper';
+import SettingsIcon from '@lucide/svelte/icons/settings';
 
 export type Link =
   | {
       name: string;
       url: string;
-      icon: ComponentType;
+      icon: Component;
     }
   | { separator: true };
 
